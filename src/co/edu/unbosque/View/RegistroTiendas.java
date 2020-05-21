@@ -1,4 +1,4 @@
-package View;
+package co.edu.unbosque.View;
 
 import java.awt.Color;
 import java.awt.Font;
@@ -11,7 +11,7 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 
-import Controller.Controller;
+import co.edu.unbosque.Controller.Controller;
 
 public class RegistroTiendas  extends JFrame {
 	private static final long serialVersionUID = 1L;

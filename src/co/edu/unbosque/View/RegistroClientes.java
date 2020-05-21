@@ -1,4 +1,4 @@
-package View;
+package co.edu.unbosque.View;
 
 import java.awt.Color;
 import java.awt.Font;
@@ -13,7 +13,8 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 import com.toedter.calendar.JDateChooser;
-import Controller.Controller;
+
+import co.edu.unbosque.Controller.Controller;
 
 public class RegistroClientes extends JFrame {
 	private static final long serialVersionUID = 1L;
@@ -168,7 +169,7 @@ public class RegistroClientes extends JFrame {
 		RegistrarUsuario.setActionCommand(BOTONREGISTRAR);
 
 		 logo = new JLabel(""); ImageIcon icon = new
-		 ImageIcon("Imagenes/images.png"); Image imagenReescalada =
+		 ImageIcon("Imagenes/amor.gif"); Image imagenReescalada =
 		 icon.getImage().getScaledInstance(340, 340,Image.SCALE_DEFAULT);
 		 logo.setIcon(new ImageIcon(imagenReescalada));
 		 logo.setBounds(460, 50, 350 , 350); 

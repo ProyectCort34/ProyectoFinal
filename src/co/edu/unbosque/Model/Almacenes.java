@@ -1,7 +1,13 @@
-package Model;
+package co.edu.unbosque.Model;
 
-public class Almacenes {
-	
+import java.io.Serializable;
+
+public class Almacenes implements Serializable {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 3780497233806030232L;
 	private String ubicacion ; 
 	private String nombre; 
 	private String ciudad;

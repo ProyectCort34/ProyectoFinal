@@ -1,6 +1,12 @@
-package Model;
+package co.edu.unbosque.Model;
 
-public class Usuario {
+import java.io.Serializable;
+
+public class Usuario implements Serializable {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 6212271318146627842L;
 	private String cedula ; 
 	private String nombre;
 	private String apellido;

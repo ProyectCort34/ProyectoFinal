@@ -1,4 +1,4 @@
-package View;
+package co.edu.unbosque.View;
 
 public class RegistroParejas {
 	

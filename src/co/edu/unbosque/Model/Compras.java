@@ -1,6 +1,12 @@
-package Model;
+package co.edu.unbosque.Model;
 
-public class Compras {
+import java.io.Serializable;
+
+public class Compras implements Serializable {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -2226800129002277894L;
 	private String pareja;
 	private String lugar;
 	private int monto;
