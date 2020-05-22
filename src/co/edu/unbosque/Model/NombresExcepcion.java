@@ -19,7 +19,7 @@ public class NombresExcepcion extends Exception {
 	 * 
 	 * Este es el constructor de la clase NombresExcepcion el cual se le asigna la
 	 * inicialización de los atributos y objectos. De esta manera el objecto el
-	 * objecto toma el valor. Este método se llama automaticamente cuando se esta
+	 * objeto toma el valor. Este método se llama automaticamente cuando se esta
 	 * validando el proceso del nombre del ciudadano en el registro. <b>post</b> Se
 	 * debe hacer la validación del nombres para que sea de tipo String, para el
 	 * registro <br>
