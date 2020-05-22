@@ -10,6 +10,7 @@ import javax.swing.JButton;
 import javax.swing.JComboBox;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
+import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 import com.toedter.calendar.JDateChooser;
@@ -18,6 +19,7 @@ import co.edu.unbosque.Controller.Controller;
 
 public class RegistroClientes extends JFrame {
 	private static final long serialVersionUID = 1L;
+	
 	private JPanel panel1;
 	private JLabel LabelCedula, LabelNombre, LabelApellido, LabelGenero, LabelEdad;
 	private JLabel LabelCorreo, fondo;
@@ -175,8 +177,8 @@ public class RegistroClientes extends JFrame {
 		 logo.setBounds(460, 50, 350 , 350); 
 		 panel1.add(logo);
 		
-		 fondo = new JLabel(); fondo.setBounds(0,0,850,500); fondo.setIcon(new
-		 ImageIcon("Imagenes/fondo.jpg")); 
+		 fondo = new JLabel(); 
+		 fondo.setBounds(0,0,850,500); fondo.setIcon(new ImageIcon("Imagenes/fondo.jpg")); 
 		 panel1.add(fondo);
 		 
 		this.add(panel1);
@@ -349,8 +351,11 @@ public class RegistroClientes extends JFrame {
 		return imgAtras;
 	}
 
-	public void setImgAtras(ImageIcon imgAtras) {
-		this.imgAtras = imgAtras;
-	}
 
-}
+
+	// ESTE METODO SE USA PARA MOSTRAR MENSAJES DE NOTIFICACION
+	public void mostrarMensajes(String mensaje) {
+		
+		JOptionPane.showMessageDialog(null, mensaje);
+	}
+}	

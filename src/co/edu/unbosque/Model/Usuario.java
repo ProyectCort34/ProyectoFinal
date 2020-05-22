@@ -11,15 +11,15 @@ public class Usuario implements Serializable {
 	private String nombre;
 	private String apellido;
 	private String genero;
-	private int edad;
+	private String edad;
 	private String correo;
 	private String alias;
 	private String contraseña;
-	private int cupo;
+	private String cupo;
 	
 
-	public Usuario(String cedula, String nombre, String apellido, String genero, int edad, String correo, String alias,
-			String contraseña, int cupo) {
+	public Usuario(String cedula, String nombre, String apellido, String genero, String edad, String correo, String alias,
+			String contraseña, String cupo) {
 	
 		this.cedula = cedula;
 		this.nombre = nombre;
@@ -31,64 +31,96 @@ public class Usuario implements Serializable {
 		this.contraseña = contraseña;
 		this.cupo = cupo;
 	}
-	
+
+
 	public String getCedula() {
 		return cedula;
 	}
+
+
 	public void setCedula(String cedula) {
 		this.cedula = cedula;
 	}
+
+
 	public String getNombre() {
 		return nombre;
 	}
+
+
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
+
+
 	public String getApellido() {
 		return apellido;
 	}
+
+
 	public void setApellido(String apellido) {
 		this.apellido = apellido;
 	}
+
+
 	public String getGenero() {
 		return genero;
 	}
+
+
 	public void setGenero(String genero) {
 		this.genero = genero;
 	}
-	public int getEdad() {
+
+
+	public String getEdad() {
 		return edad;
 	}
-	public void setEdad(int edad) {
+
+
+	public void setEdad(String edad) {
 		this.edad = edad;
 	}
+
+
 	public String getCorreo() {
 		return correo;
 	}
+
+
 	public void setCorreo(String correo) {
 		this.correo = correo;
 	}
+
+
 	public String getAlias() {
 		return alias;
 	}
+
+
 	public void setAlias(String alias) {
 		this.alias = alias;
 	}
+
+
 	public String getContraseña() {
 		return contraseña;
 	}
+
+
 	public void setContraseña(String contraseña) {
 		this.contraseña = contraseña;
 	}
-	public int getCupo() {
+
+
+	public String getCupo() {
 		return cupo;
 	}
-	public void setCupo(int cupo) {
+
+
+	public void setCupo(String cupo) {
 		this.cupo = cupo;
 	}
-	
-	
-	
 	
 
 
